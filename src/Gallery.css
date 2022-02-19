@@ -1,0 +1,131 @@
+.gallery {
+    background-color: #000001;
+    display: flex;
+    flex-direction: row;
+    width: 2158px;
+    height: 767px;
+}
+
+.moon {
+    width: 1363px;
+    height: 767px;
+}
+
+.content {
+    margin-top: 45px;
+    margin-left: 157px;
+    width: 707px;
+    height: 535.22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .header {
+    color: #FFFFFF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.content .description {
+    color: #6E6E6E;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    width: 707px;
+}
+
+.form {
+    align-self: center;
+    margin-top: 71px;
+    width: 407.19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.form label {
+    color: #6E6E6E;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 13px;
+}
+
+.form input {
+    /* width: 100%; */
+    flex: 1;
+    height: 37.41px;
+    background: rgba(255, 255, 255, 0.09);
+    /* opacity: 0.09; */
+    margin-bottom: 22px;
+    color: white;
+    /* padding-left: 0px; */
+    border-radius: 9px;
+    padding-left: 50px;
+    border-width: 0px;
+    /* background: url(/public/assets/mail.png) no-repeat scroll 7px 7px; */
+}
+
+.form .input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+}
+
+.form .input-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+/* .form input::before {
+  background: url('/public/assets/mail.png');
+  width: 50px;
+  height: 50px;
+} */
+
+.form input::-webkit-input-placeholder, .form input::placeholder, .form input::-moz-placeholder {
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 0.25;
+}
+
+.form input::placeholder {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.form .counters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    background-color: #6684F2;
+    width: 243px;
+    height: 42px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    padding: 14px;
+    border-radius: 9999px;
+    border-width: 0px;
+    align-self: center;
+    margin-top: 25px;
+    cursor: pointer;
+}

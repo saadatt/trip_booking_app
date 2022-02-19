@@ -1,0 +1,51 @@
+.counter {
+    width: 100px;
+    height: 64.67px;
+}
+
+.counter input {
+    width: 100px;
+    height: 37.41px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.controls {
+    position: relative;
+}
+
+.minus {
+   position: absolute;
+    top: 11px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.22);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minus span {
+    opacity: 1;
+    color: #888888;
+}
+
+.plus {
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    width: 18px;
+    height: 18px;
+    color: #888888;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
