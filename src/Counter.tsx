@@ -13,7 +13,7 @@ function Counter ({ title, onChange, value }: Props) {
         <label>{title}</label>
         <div className='controls'>
     <input value={value} disabled />
-    <div className='minus' onClick={() => onChange && onChange(value - 1)}><span>-</span></div>
+    <div className='minus' onClick={() => onChange && onChange((value - 1) < 0 ? 0 : (value -1) )}><span>-</span></div>
     <div className='plus' onClick={() => onChange && onChange(value + 1)}><span>+</span></div>
     </div>
     </div>
