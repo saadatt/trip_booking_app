@@ -4,10 +4,11 @@ import Counter from './Counter';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
 import {E164Number} from 'libphonenumber-js/types'
+
 const Moon = require('./images/moon.png');
-const Phone =require('./images/phone.png');
+//const Phone =require('./images/phone.png');
 const Mail = require('./images/mail.png');
-const User =require('./images/user.png');
+const User = require('./images/user.png');
 
 function Gallery() {
     const [name, setName] = useState<string | undefined>()

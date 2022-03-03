@@ -3,23 +3,39 @@
     display: flex;
     flex-direction: row;
     width: 2158px;
-    height: 767px;
-    /*width: 100%;*/
-    /*height: 100%;*/
+    /*height: 767px;*/
+    height: 100vh;
+    /*background-image: url('./images/moon.png') ;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+}
+
+@media screen and (max-width: 992px) {
+    .gallery {
+        background-color: #000001;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+    }
 }
 
 .moon {
-    width: 1363px;
-    height: 767px;
-    /*width: 100%;*/
-    /*height: 100%;*/
+    /*width: 1363px;*/
+    /*height: 767px;*/
+    width: 100%;
+    height: 100%;
     /*object-fit: contain;*/
 }
 
 .content {
-    margin-top: 45px;
-    margin-left: 157px;
-    width: 707px;
+    /*background-color: rgba(0,0,0,0.75);*/
+    margin-top: 2.8rem;
+    /*margin-left: 157px;*/
+    margin-left: 2rem;
+    /*width: 707px;*/
+    width: 44rem;
     height: 535.22px;
     display: flex;
     flex-direction: column;

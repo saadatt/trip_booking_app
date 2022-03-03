@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import './Counter.css';
-import {findAllByDisplayValue, findAllByLabelText} from "@testing-library/react";
 
 type Props = {
     title: string,
